@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\Spotify\SpotifyController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,3 +16,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home.index');
+
+/**
+ * Music Routes
+ */
+Route::get('/music', [App\Http\Controllers\MusicController::class, 'index'])->name('music.index');
+
+/**
+ * Spotify Routes
+ */
+Route::get('/spotify', SpotifyController::class)->name('spotify.index');

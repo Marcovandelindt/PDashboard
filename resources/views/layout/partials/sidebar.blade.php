@@ -10,7 +10,7 @@
                     <div class="sb-nav-link-icon"><i class="fa-solid fa-notes-medical"></i></div>
                     Gezondheid
                 </a>
-                <a class="nav-link" href="{{ route('home.index') }}">
+                <a class="nav-link" href="{{ route('music.index') }}">
                     <div class="sb-nav-link-icon"><i class="fa-solid fa-music"></i></div>
                     Muziek
                 </a>
