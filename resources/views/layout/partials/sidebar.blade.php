@@ -14,7 +14,7 @@
                     <div class="sb-nav-link-icon"><i class="fa-solid fa-music"></i></div>
                     Muziek
                 </a>
-                <a class="nav-link" href="{{ route('home.index') }}">
+                <a class="nav-link" href="{{ route('gaming.index') }}">
                     <div class="sb-nav-link-icon"><i class="fa-solid fa-gamepad"></i></div>
                     Gaming
                 </a>

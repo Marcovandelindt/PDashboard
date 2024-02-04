@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8f436641996031b141d1ccbd521fb26c",
+    "content-hash": "3aebbad91da2962f615714eb6ac72bb0",
     "packages": [
         {
             "name": "brick/math",
@@ -5606,6 +5606,96 @@
                 "source": "https://github.com/tijsverkoyen/CssToInlineStyles/tree/v2.2.7"
             },
             "time": "2023-12-08T13:03:43+00:00"
+        },
+        {
+            "name": "tustin/haste",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Tustin/Haste.git",
+                "reference": "c3fe6eb28d45626356062e248a77e29d0d01b346"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Tustin/Haste/zipball/c3fe6eb28d45626356062e248a77e29d0d01b346",
+                "reference": "c3fe6eb28d45626356062e248a77e29d0d01b346",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^7.5",
+                "php": "^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Tustin\\Haste\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tustin",
+                    "email": "tustin@tustin.dev"
+                }
+            ],
+            "description": "HTTP library for my API library projects",
+            "support": {
+                "issues": "https://github.com/Tustin/Haste/issues",
+                "source": "https://github.com/Tustin/Haste/tree/v1.1.1"
+            },
+            "time": "2023-03-06T22:36:22+00:00"
+        },
+        {
+            "name": "tustin/psn-php",
+            "version": "4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Tustin/psn-php.git",
+                "reference": "88015f32e7cf19f666ecad80b23120f0f18ec1b4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Tustin/psn-php/zipball/88015f32e7cf19f666ecad80b23120f0f18ec1b4",
+                "reference": "88015f32e7cf19f666ecad80b23120f0f18ec1b4",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^7.5",
+                "nesbot/carbon": "^2.41",
+                "php": "^8.1",
+                "tustin/haste": "^1.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Tustin\\PlayStation\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "PHP wrapper for the PlayStation API.",
+            "homepage": "https://github.com/Tustin/psn-php",
+            "keywords": [
+                "api",
+                "php",
+                "playstation"
+            ],
+            "support": {
+                "issues": "https://github.com/Tustin/psn-php/issues",
+                "source": "https://github.com/Tustin/psn-php/tree/4.0.0"
+            },
+            "time": "2022-12-13T17:48:34+00:00"
         },
         {
             "name": "vlucas/phpdotenv",

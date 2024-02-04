@@ -26,3 +26,9 @@ Route::get('/music', [App\Http\Controllers\MusicController::class, 'index'])->na
  * Spotify Routes
  */
 Route::get('/spotify', SpotifyController::class)->name('spotify.index');
+
+/**
+ * Gaming Routes
+ */
+Route::get('/gaming', [App\Http\Controllers\Gaming\GamingController::class, 'index'])->name('gaming.index');
+Route::get('/gaming/playstation/sync', [App\Http\Controllers\Gaming\PlaystationSynController::class, 'index'])->name('gaming.playstation.sync');
